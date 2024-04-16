@@ -1,0 +1,70 @@
+body{
+  background: url(assets/backgd.jpg);
+  background-size: cover;
+}
+#inputitem{
+  background-color: black;
+  border-radius: 10px;
+  padding: 30px;
+  height: 10rem;
+  width: 70%;
+  margin: auto;
+
+}
+#listitem{
+  background: transparent;
+  backdrop-filter: blur(70%);
+  border-radius: 10px;
+}
+.button{
+  height: 50px;
+  width: 100px;
+  background: lightseagreen;
+  margin: 20px;
+  float: left;
+  box-shadow: 0 0 1px #ccc;
+  transition: all 0.5s ease-in-out;
+  border: 0px;
+  color: #fff;
+}
+.button:hover{
+  transform: scale(1.1);
+  background: #31708f;
+}
+.todo-app {
+  font-family: sans-serif;
+}
+
+/** add todo **/
+.add-todo {
+  margin-left: 0.5rem;
+}
+
+/** todo list **/
+.todo-list {
+  margin-top: 1rem;
+  text-align: left;
+  list-style: none;
+  border:none;
+}
+
+/** todo item **/
+.todo-item {
+  font-family: monospace;
+  cursor: pointer;
+  line-height: 1.5;
+}
+.todo-item__text--completed {
+  text-decoration: line-through;
+  color: lightgray;
+}
+
+/** visibility filters **/
+.filter {
+  padding: 0.3rem 0;
+  margin: 0 0.3rem;
+  cursor: pointer;
+}
+.filter--active {
+  border-bottom: 1px solid black;
+}
